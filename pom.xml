@@ -3,9 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>online_edu_service</module>
-        <module>online_edu_common</module>
-        <module>online_edu_oss</module>
+        <module>tz_edu_common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -13,10 +11,10 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>fun.jiayou</groupId>
-    <artifactId>online_edu_parent</artifactId>
+    <groupId>com.tuzhong</groupId>
+    <artifactId>tz_edu_parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>online_edu_parent</name>
+    <name>tz_edu_parent</name>
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
 
