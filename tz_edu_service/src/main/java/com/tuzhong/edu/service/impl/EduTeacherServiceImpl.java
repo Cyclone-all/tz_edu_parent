@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
  * 讲师 服务实现类
  * </p>
  *
- * @author BaiYun
+ * @author WangYongShuai
  * @since 2020-11-08
  */
 @Service

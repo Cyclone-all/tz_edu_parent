@@ -17,7 +17,7 @@ import java.util.List;
  * 讲师 前端控制器
  * </p>
  *
- * @author BaiYun
+ * @author WangYongShuai
  * @since 2020-11-08
  */
 @CrossOrigin

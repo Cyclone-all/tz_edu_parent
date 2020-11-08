@@ -10,7 +10,7 @@ import com.tuzhong.request.EduTeacherConditionVO;
  * 讲师 服务类
  * </p>
  *
- * @author BaiYun
+ * @author WangYongShuai
  * @since 2020-11-08
  */
 public interface EduTeacherService extends IService<EduTeacher> {

@@ -16,7 +16,7 @@ import org.springframework.format.annotation.DateTimeFormat;
  * 讲师
  * </p>
  *
- * @author BaiYun
+ * @author WangYongShuai
  * @since 2020-11-08
  */
 @Data
