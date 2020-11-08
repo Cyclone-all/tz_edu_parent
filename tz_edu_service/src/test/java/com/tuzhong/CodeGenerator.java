@@ -47,7 +47,7 @@ public class CodeGenerator {
         dataSourceConfig.setUrl("jdbc:mysql://localhost:3306/online_edu?serverTimezone=GMT%2B8");
         dataSourceConfig.setDriverName("com.mysql.cj.jdbc.Driver");
         dataSourceConfig.setUsername("root");
-        dataSourceConfig.setPassword("123456");
+        dataSourceConfig.setPassword("root");
         dataSourceConfig.setDbType(DbType.MYSQL);
         autoGenerator.setDataSource(dataSourceConfig);
 
@@ -63,7 +63,7 @@ public class CodeGenerator {
 
         // 5、策略配置
         StrategyConfig strategy = new StrategyConfig();
-        strategy.setInclude("edu_teacher");
+        strategy.setInclude("edu_subject");
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
         strategy.setTablePrefix(packageConfig.getModuleName() + "_"); //生成实体时去掉表前缀
 
