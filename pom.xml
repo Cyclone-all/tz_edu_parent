@@ -4,6 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>tz_edu_common</module>
+        <module>tz_edu_service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
